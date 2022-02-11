@@ -1,5 +1,9 @@
 # 프레임워크 VS 라이브러리 VS API
 
+10분 테코톡 욘님의 `프레임워크 vs 라이브러리 vs API` 영상을 보고 정리한 글입니다.
+
+[욘의 프레임워크 vs 라이브러리 vs API](https://www.youtube.com/watch?v=_j4u4ftWwhQ&ab_channel=%EC%9A%B0%EC%95%84%ED%95%9CTech)
+
 ## 프레임워크
 
 **프레임워크**란 개발할 때 쓰여지는 범용적인 기능들을 모아 한꺼번에 제공하여 개발 효율 향상을 목표로 하는 소프트웨어 환경 
