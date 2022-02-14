@@ -1,8 +1,4 @@
-# Dependency Injection
-
----
-
-# 스프링 의존성 주입(DI) 방법
+# 스프링 의존성 주입 (Dependency Injection) 방법
 
 ## 필드 주입
 
@@ -56,7 +52,6 @@ private final CService cService;
 
 *IntelliJ*에서 필드 주입을 사용하면 경고를 나타낸다
 
----
 
 ## 스프링에서 **생성자 주입 방법을 권장하는 이유**
 
@@ -86,7 +81,6 @@ private final CService cService;
 
 반면에, 생성자 주입의 경우 생성자의 인자가 많아짐에 따른 리팩토링의 지표가 될 수가 있다. ⇒ *롬복을 사용하면 별 차이는 없는 것 같다.*
 
----
 
 ## 필드 주입의 장점?
 
