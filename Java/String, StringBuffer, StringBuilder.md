@@ -89,5 +89,5 @@ str = (new StringBuilder().append(str).append(" idiot").toString());
 `String` 연산을 여러 라인에 걸쳐서 선언할 경우에 자바 컴파일러가 연산하는 라인마다 새로운 `StringBuilder`를 생성하여 append하는 것을 확인할 수 있다.
 `String`과 `StringBuilder` 서로 연산 시마다 새로운 객체를 생성하는 것은 같지만 새로운 `String` 객체를 새로 생성하는 것보다 `StringBuilder`를 이용하여 연산하는 것이 성능 부분에서 효율적이다.
 
-### 참조
+---
 https://ifuwanna.tistory.com/221
