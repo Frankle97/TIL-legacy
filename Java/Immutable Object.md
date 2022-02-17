@@ -231,3 +231,5 @@ Java에서 이 String 객체들은 Heap의 String Pool 이라는 특별한 공�
 https://velog.io/@conatuseus/Java-Immutable-Object%EB%B6%88%EB%B3%80%EA%B0%9D%EC%B2%B4
 
 https://galid1.tistory.com/622
+
+https://dololak.tistory.com/699
