@@ -9,7 +9,7 @@
 대표적인 에러로는 `OutOfMemory`, `StackOverFlow` 등이 있다.
 
 ## Exception
-예외(Exception)는 개발자가 만든 어플리케이션에서 잘못된 상황이 발생했을 경우 사용된다. 
+예외(Exception)는 개발자가 만든 어플리케이션에서 잘못된 상황이 발생했을 경우를 의미한다. <br/>
 예외는 프로그램에 오류이기 때문에 복구가 가능한 수준이며 예외에 대한 예방 또한 가능하다.
 
 |                            | Checked Exception                                            | Unchecked Exception                                          |
@@ -19,8 +19,7 @@
 | 예외 발생 시 트랜잭션 롤백 처리 | X                                          | O                                                 |
 | 대표 예외                  | `IOException` `SQLException` | `NullPointerException` `IndexOutOfBoundException` |
 
-예외는 크게 `Checked Exception`, `Unchecked Exception`으로 나뉜다.<br/>
-이 둘의 구분은 `RuntimeException`를 상속하고 있는지와 로직에 대한 **예외 처리 여부**이다.
+예외는 `Checked Exception`, `Unchecked Exception`으로 나뉘고, 둘의 구분은 `RuntimeException`를 상속하고 있는지와 로직에 대한 **예외 처리 여부**이다.
 
 ### Checked Exception 
 해당 예외가 발생할 여지가 있는 로직에 대해 반드시 **예외처리**(try-catch or throw)를 해줘야 한다.<br/>
