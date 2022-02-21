@@ -1,6 +1,6 @@
 # Checked Exception, Unchecked Exception
 
-![img.png](../images/Exception.png)
+![img.png](../images/throw_hierachy.png)
 <br/>자바의 예외는 크게 **Error**, **Checked Exception**, **Unchecked Exception** 세 가지로 분류된다.
 
 ## Error
@@ -16,7 +16,7 @@
 | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 처리 여부                  | 반드시 예외를 처리해야 함                                    | 명시적인 처리를 강제하지 않음                                |
 | 확인 시점                  | Compile Time                                                  | Run Time                                                    |
-| 예외 발생 시 트랜잭션 롤백 처리 | X                                          | O                                                 |
+| 스프링 default 롤백 설정 여부    | X                                          | O                                                 |
 | 대표 예외                  | `IOException` `SQLException` | `NullPointerException` `IndexOutOfBoundException` |
 
 예외는 `Checked Exception`, `Unchecked Exception`으로 나뉘고, 둘의 구분은 `RuntimeException`를 상속하고 있는지와 로직에 대한 **예외 처리 여부**이다.
@@ -30,10 +30,10 @@
 명시적인 예외처리를 강제하지 않지만 로직 중에 문제가 발생을 미리 예상하고 예외처리를 잘 해주어야 한다.<br/>
 
 컴파일 단계에서 체크되지 못하고, 런타임 중 발생하게 된다.<br/>
-로직 처리 도중 해당 Exception 이 발생하게 되면 해당 트랜잭션에 대한 롤백이 수행된다.
 
 ---
 https://devlog-wjdrbs96.tistory.com/351
 
 https://cheese10yun.github.io/checked-exception/
 
+https://interconnection.tistory.com/122
