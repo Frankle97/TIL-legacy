@@ -31,6 +31,8 @@
 
 컴파일 단계에서 체크되지 못하고, 런타임 중 발생하게 된다.<br/>
 
+
+롤백의 경우 스프링 트랜잭션의 rollbackfor이 Runtime Exception과 Error일뿐이지 커스컴적인 제어는 가능하다.
 ---
 https://devlog-wjdrbs96.tistory.com/351
 
