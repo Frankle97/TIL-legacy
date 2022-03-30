@@ -18,7 +18,7 @@
 
 ## Topic & Partition
 
-![Topic_Partition.png](../../images/Topic_Partition.png)
+![Topic_Partition.png](../images/Topic_Partition.png)
 
 - Message는 Topic으로 분류되며 Topic은 여러개의 partition으로 나뉜다. partition 내의 한 칸은 로그라고 불린다.
 - 데이터는 한 칸의 로그에 순차적으로 append된다.
@@ -38,7 +38,7 @@
 
 ## Consumer Group
 
-![consumer_group.png](../../images/consumer_group.png)
+![consumer_group.png](../images/consumer_group.png)
 
 - Consumer Group은 하나 이상의 Consumer로 구성되며, 한 Topic을 읽고 처리하기 위해 같은 Group의 여러 Consumer가 동작한다.
 - 한 Topic은 각 Partition은 하나의 Consumer만 소비할 수 있다 -> 반드시 해당 Topic의 Partition은 그 Consumer Group과 1:N 매칭을 이뤄야 한다.
