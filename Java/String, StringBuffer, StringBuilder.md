@@ -1,7 +1,5 @@
 # String, StringBuffer, StringBuilder
 
-Java의 String에 대해, `String`, `StringBuffer`, `StringBuilder`에 대해 차이에 대해 정리해본다.
-
 문자열 연산이 적을 경우 문제가 발생할 확률은 적으나, **연산이 많다, 멀티쓰레드이다, Race Condition** 등의 상황을 고려해야 한다면 각 클래스에 대해 이해하고 상황에 맞는 클래스를 적절하게 사용할 줄 알아야 한다.
 
 ## String vs StringBuffer/StringBuilder
