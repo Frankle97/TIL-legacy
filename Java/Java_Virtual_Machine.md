@@ -1,21 +1,15 @@
 # 개요
 - JVM 구조에 대해 살펴봅니다.
-- JVM이 어떻게 구성되어 있고, 각 요소들이 어떤 역할을 수행하는지에 대해 알아봅니다.
+- JVM의 구성 요소와 각 요소들이 어떤 역할을 수행하는지에 대해 알아봅니다.
 
 ## JVM
 ![jvm.png](../Java/images/jvm.png)
 
 JVM(Java Virtual Machine)은 자바 가상 머신으로 자바 코드 또는 애플리케이션을 구동하기 위한 런타임 환경을 제공하는 엔진입니다.
 
-다른 운영체제를 사용하는 컴퓨터마다 JVM이 존재하고, `.class` 파일을 운영체제에 제출하면 JVM이 바이트 코드를 기계어 수준으로 해석하여 실행합니다.
+다른 운영체제를 사용하는 컴퓨터마다 JVM이 존재하고 `.class` 파일을 운영체제에 제출하면 JVM이 바이트 코드를 기계어 수준으로 해석하여 실행합니다.
 
 따라서 JVM은 운영체제에 종속적이지 않고, Java 파일은 어느 기기에서든 JVM 위에서 실행될 수 있습니다.
-
-### JVM Works
-먼저, 자바 컴파일러가 자바 소스 코드를 바이트 코드로 변환합니다. 
-그리고 클래스 로더가 컴파일된 자바 클래스 파일을 메모리(Runtime Data Area)에 적재합니다.
-(작성중)
-
 
 ## JVM Architecture
 ![jvmArchitecture.png](../Java/images/JVM_Architecture.png)
@@ -63,7 +57,7 @@ Native Applications(하드웨어와 운영체제에 종속된 프로그램), C, 
 Execution Engine에 필요한  Native Libraries(C, C++) 모음입니다.
 
 # 마무리
-다음 포스팅에서는 JVM Memory의 세부적인 내용과 GC(Garbage Collector)에 대해 다뤄보겠습니다.
+다음 포스팅에서는 JVM Memory의 영역들과 GC(Garbage Collector)에 대해 다뤄보겠습니다.
 # 참고 자료
 - https://en.wikipedia.org/wiki/Java_virtual_machine
 - https://www.holaxprogramming.com/2013/07/16/java-jvm-runtime-data-area/
