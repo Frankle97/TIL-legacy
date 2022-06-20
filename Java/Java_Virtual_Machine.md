@@ -3,7 +3,7 @@
 - JVM이 어떻게 구성되어 있고, 각 요소들이 어떤 역할을 수행하는지에 대해 알아봅니다.
 
 ## JVM
-![jvm.png](images\jvm.png)
+![jvm.png](../Java/images/jvm.png)
 JVM(Java Virtual Machine)은 자바 가상 머신으로 자바 코드 또는 애플리케이션을 구동하기 위한 런타임 환경을 제공하는 엔진입니다.
 
 다른 운영체제를 사용하는 컴퓨터마다 JVM이 존재하고, `.class` 파일을 운영체제에 제출하면 JVM이 바이트 코드를 기계어 수준으로 해석하여 실행합니다.
@@ -17,7 +17,7 @@ JVM(Java Virtual Machine)은 자바 가상 머신으로 자바 코드 또는 애
 
 
 ## JVM Architecture
-![jvmArchitecture.png](jvm/images/JVM_Architecture.png)
+![jvmArchitecture.png](../Java/images/JVM_Architecture.png)
 
 JVM은 크게 Class Loader, JVM Memory, Execution Engine로 나누어져 있습니다.
 
