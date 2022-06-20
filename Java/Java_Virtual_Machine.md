@@ -17,7 +17,7 @@ JVM(Java Virtual Machine)은 자바 가상 머신으로 자바 코드 또는 애
 
 
 ## JVM Architecture
-![jvmArchitecture.png](images/JVM_Architecture.png)
+![jvmArchitecture.png](jvm/images/JVM_Architecture.png)
 
 JVM은 크게 Class Loader, JVM Memory, Execution Engine로 나누어져 있습니다.
 
