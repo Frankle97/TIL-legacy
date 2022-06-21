@@ -29,9 +29,9 @@ Heap Area와 마찬가지로 Method Area의 자원들은 모든 쓰레드에 공
 
 ### 3) Heap
 new 키워드로 생성된 객체와 관련 인스턴스 변수 및 배열들이 저장됩니다.
+내부에서는 인스턴스의 생명주기에 따라 공간이 나뉘며 모두 Garbage Collection의 대상이 되는 영역입니다. 
 
 Method Area와 마찬가지로 Heap Area의 자원들은 모든 쓰레드에 공유되어 쓰레드에 안전하지 않습니다.  
-또한 Heap Area 내부에서는 인스턴스의 생명주기에 따라 저장되는 공간이 변경되며, 모두 Garbage Collection의 대상이 되는 영역입니다.
 
 ### 4) JVM Language Stack
 스레드 제어를 위해 사용되는 메모리 영역입니다. 스레드가 생성될 때마다 각 스레드는 스레드마다 하나의 스택을 할당받습니다.
@@ -58,6 +58,7 @@ Execution Engine에 필요한  Native Libraries(C, C++) 모음입니다.
 
 # 마무리
 다음 포스팅에서는 JVM Memory의 영역들과 GC(Garbage Collector)에 대해 다뤄보겠습니다.
+
 # 참고 자료
 - https://en.wikipedia.org/wiki/Java_virtual_machine
 - https://www.holaxprogramming.com/2013/07/16/java-jvm-runtime-data-area/
