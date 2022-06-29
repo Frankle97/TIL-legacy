@@ -53,7 +53,7 @@
 > 5. 마지막으로 Replication SQL 스레드가 릴레이 로그를 읽어 Master의 SQL을 실행
   
 ## 성능을 추구하기 위한 다중화 - Shared Nothing
-![img.png](shared)
+![img.png](images/shared.png)
 ### Shared Disk
 앞서 Active-Active 구성의 DB는 복수의 서버가 하나의 디스크(저장소)를 공유하도록 되어 있어 병목되는 경우가 있다. 이처럼 **복수의 서버가 단일 저장소를 사용**하는 구성을 **Shared Disk**라고 부른다.
 Shared Disk 타입의 Active-Active 구성은 DB 서버를 늘려도 처리율이 계속해서 향상되지 못하고 어딘가에서 **한계점에 도달**해버린다. 이는 DB 서버의 수가 증가할수록 DB 서버 간의 정보공유를 위한 오버헤드가 크기 때문이다.
